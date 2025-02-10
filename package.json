@@ -1,0 +1,15 @@
+{
+    "name": "drizzle-checkout",
+    "private":"true",
+    "version": "0.0.0",
+    "description": "a simple test project to checkout drizzle features",
+    "type": "module",
+    "scripts": {
+        "dev": "tsx watch src/main.ts"
+    },
+    "devDependencies": {
+        "@types/node":"^20",
+        "tsx":"^4",
+        "typescript":"^5"
+    }
+}
