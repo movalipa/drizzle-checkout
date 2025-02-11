@@ -1,6 +1,6 @@
 {
     "name": "drizzle-checkout",
-    "private":"true",
+    "private": "true",
     "version": "0.0.0",
     "description": "a simple test project to checkout drizzle features",
     "type": "module",
@@ -8,8 +8,15 @@
         "dev": "tsx watch src/main.ts"
     },
     "devDependencies": {
-        "@types/node":"^20",
-        "tsx":"^4",
-        "typescript":"^5"
+        "@types/node": "^20",
+        "@types/pg": "^8.11.11",
+        "drizzle-kit": "^0.30.4",
+        "tsx": "^4.19.2",
+        "typescript": "^5"
+    },
+    "dependencies": {
+        "dotenv": "^16.4.7",
+        "drizzle-orm": "^0.39.3",
+        "pg": "^8.13.1"
     }
 }
