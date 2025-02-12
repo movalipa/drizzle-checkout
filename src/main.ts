@@ -25,7 +25,10 @@ async function main() {
   //     .groupBy(usersTable.id)
   //     .orderBy(usersTable.id);
   const query = await db.query.usersTable.findMany({ with: { posts: true } });
-  console.log(query);
+  //   const query = await db.query.postsTable.findMany({
+  //     with: { user: true },
+  //   });
+  console.log(JSON.stringify(query, null, "    "));
 }
 
 main();
